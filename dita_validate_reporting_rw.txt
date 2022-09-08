@@ -1,0 +1,57 @@
+============================================================
+Reporting -- Validation of othermeta name/content in topics folder (.dita files)
+1. robots:nofollow, noindex (0 files)
+2. product:Coverity on Polaris (37 files)
+============================================================
+Total .dita files in folder: 46
+Total files validated to have either 1 or 2 in them: 37 (0 + 37)
+============================================================
+Method: grep folder for strings
+============================================================
+
+============================================================
+1. robots:nofollow (0) -- 'robots:nofollow, noindex' syntax/spelling validated in 0 files
+============================================================
+--nothing--
+
+
+============================================================
+2. product:Coverity on Polaris (37) -- 'product;Coverity on Polaris' syntax/spelling validated in 37 files
+============================================================
+c_relnotes.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_agents.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_custom_appriskreport.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_interface.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_reports.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_report_details.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_report_details_categories.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_report_details_severity.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_report_details_tools.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_report_details_trend.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_tools.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_users.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_viewing_results.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_welcome.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_rp_cfg_black_duck.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_rp_sev_stat_mapping.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_rp_us_apis_pushdata.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_export-issues.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_agent_create.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_agent_download.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_agent_gentoken.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_agent_install.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_apis.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_configure.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_create.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_create_by_name.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_create_by_search.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_edit_props.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_props_local.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_app_remove.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_cfg_msp.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_cfg_seeker.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_maintain_agent.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_mng_appmembers.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_setup_apps.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_sslcert_dbconn.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_rp_upgrade_agent.dita: <othermeta name="product" content="Coverity on Polaris"/>
