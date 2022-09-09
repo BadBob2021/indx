@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+
+<map id="map_ktq_4yt_rgb" xml:lang="en-US">
+  
+  <title>Coverity on Polaris Help 2022.6.0</title>
+  <topicmeta>
+    <!-- zoomin bundle name -->
+    <othermeta name="bundle" content="polaris"/>
+  </topicmeta>
+  <!-- link to zoomin classification map -->
+  <topicref processing-role="resource-only" format="xml" type="xml" 
+    href="classification.xml" outputclass="classmapdata" scope="local"/>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Overview</navtitle>
+      <shortdesc>What Polaris does and how it works with other tools.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/c_inclusivity.dita"/>    
+    <topicref href="topics/c_polaris-overview.dita"/>
+    <topicref href="topics/c_understanding-coverity.dita"/>
+    <topicref href="topics/c_projects-branches-revisions.dita"/>
+    <topicref href="topics/r_glossary.dita"/>
+ </topichead>
+  
+  <topichead>
+    
+    <topicmeta>
+      <navtitle>Polaris Web Interface </navtitle>
+      <shortdesc>Use the web interface to examine and manage issues in your project.</shortdesc>
+    </topicmeta>
+    <topicgroup>
+<topichead>    <topicmeta><navtitle>Web Interface Basics</navtitle></topicmeta>
+  <topicref href="topics/c_navigating-polaris.dita"/>
+  <topicref href="topics/c_projects-and-favorites.dita"/>
+  <topicref href="topics/t_project-summary.dita"/>
+  <topicref href="topics/t_view-application-results.dita"/>
+  <topicref href="topics/t_project-branches.dita"/>
+  <topicref href="topics/t_selecting-default-branch.dita"/>
+  <topicref href="topics/t_deleting-project-branches.dita"/>
+  <topicref href="topics/t_selecting-preferred-branch.dita"/>
+  <topicref href="topics/t_choose-cov-version-for-project.dita"/>
+</topichead> 
+    </topicgroup>
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Issue Management</navtitle></topicmeta>
+        <topicref href="topics/t_project-issues.dita"/>
+        <topicref href="topics/t_filter.dita"/>
+        <topicref href="topics/t_export-issues.dita"></topicref>
+        <topicref href="topics/c_issue-view.dita"/>
+        <topicref href="topics/t_issue-triage.dita"/>
+        <topicref href="topics/t_batch-triage.dita"/>
+        <topicref href="topics/t_review-triage.dita"/>
+      </topichead>
+    </topicgroup>
+    <topicref href="topics/c_rp_pol_reports.dita">
+      <topicref href="topics/c_rp_pol_custom_appriskreport.dita"/>
+    </topicref>  
+    
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Jira with Polaris</navtitle></topicmeta>
+        <topicref href="topics/t_jira-setup-for-project.dita"/>
+        <topicref href="topics/c_export-issues-to-jira.dita"/>
+        <topicref href="topics/c_bulk-export-jira.dita"/>
+      </topichead>
+    </topicgroup>
+    
+
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Administering Polaris</navtitle>
+      <shortdesc>Control access. Manage users, groups, and roles. Configure Coverity or Jira on Polaris.</shortdesc>
+    </topicmeta>
+   
+    <topicref href="topics/c_admin-overview.dita"/>
+    <topicref href="topics/c_orgs-groups-users.dita"/>
+    <topicref href="topics/t_audit-logs.dita">
+       <topicref href="topics/r_audit-logs-ref.dita"/></topicref>
+    <topicref href="topics/t_manage-triage.dita"></topicref> 
+    <topicgroup>
+      
+      <topichead>
+        <topicmeta><navtitle>Use SAML to Manage Users and Groups</navtitle></topicmeta>
+        <topicref href="topics/c_admin-understanding-saml.dita"/>       
+        <topicref href="topics/t_admin-configure-saml.dita"/>
+        <topicref href="topics/t_admin-saml-example.dita"/>
+        <topicref href="topics/c_saml-form.dita">
+          <topicref href="topics/c_saml-required-fields.dita"/> </topicref>
+        <topicref href="topics/t_saml-lockout.dita"/>
+      </topichead>
+    </topicgroup>
+    
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Manage Users in Polaris</navtitle></topicmeta>
+        <topicref href="topics/t_admin-user-add.dita"/>
+        <topicref href="topics/t_admin-user-edit.dita"/>
+        <topicref href="topics/t_admin-user-remove.dita"/>
+      </topichead>
+    </topicgroup>
+
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Manage Groups in Polaris</navtitle></topicmeta>
+        <topicref href="topics/t_admin-group-add.dita"/>
+        <topicref href="topics/t_admin-group-edit.dita"/>
+        <topicref href="topics/t_admin-group-remove.dita"/>
+      </topichead>
+    </topicgroup>
+   
+    <topicref href="topics/t_admin-add-members-project.dita"/>
+    
+    <topicref href="topics/t_create-application.dita"> 
+      <topicref href="topics/t_admin-add-members-applications.dita"/> 
+    </topicref>
+        
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Create and Manage Service Accounts</navtitle></topicmeta>
+        <topicref href="topics/t_service-account-add.dita"/>
+        <topicref href="topics/t_service-account-assoc-add.dita"/>
+        <topicref href="topics/t_service-account-assoc-end.dita"/>
+      </topichead>
+    </topicgroup>
+
+    
+
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Create and Manage Risk Profile Policies</navtitle></topicmeta>
+        <topicref href="topics/c_understand-risk-Profile.dita"/>
+        <topicref href="topics/t_create-risk-profile-policy.dita"/>
+        <topicref href="topics/t_edit-risk-profile-policy.dita"/>
+      </topichead>
+    </topicgroup>
+    
+      <topicgroup>
+        <topichead>
+          <topicmeta><navtitle>Configure Tools and Integrations</navtitle></topicmeta>
+          <topicref href="topics/t_set-cov-default-version.dita"/>
+          <topicref href="topics/c_org-admin-setup-jira.dita"/>
+          <topicref href="topics/t_jira-behind-firewall.dita"/>          
+        </topichead>
+      </topicgroup>
+
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Manage Polaris Reporting</navtitle></topicmeta>
+        <topicref href="topics/t_reporting-custom-info.dita"/>
+
+      </topichead>
+    </topicgroup>
+
+
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Polaris Command Line </navtitle>
+      <shortdesc>Run tools from the command line. Configure for the command line. Use sample YAML files.</shortdesc>
+    </topicmeta>
+    
+    <topicgroup>
+      <topichead>
+        <topicmeta><navtitle>Run Tools from the Command Line</navtitle></topicmeta>
+        <topicref href="topics/c_cli-overview.dita"/>
+        <topicref href="topics/c_cli-files.dita"/>
+        <topicref href="topics/c_cli-phases.dita"/>
+        <topicref href="topics/t_installing-cli.dita"/>
+        <topicref href="topics/t_cli-compatibility-macOS.dita"/>
+        <topicref href="topics/t_cli-quickstart.dita"/>
+        <topicref href="topics/r_cli-command-ref.dita"/>
+        <topicref href="topics/c_cli-config-overrides.dita"/>
+        <topicref href="topics/r_cli-error-codes.dita"/>
+        <topicref href="topics/r_environment_variables.dita"/>
+
+        
+      </topichead>
+    </topicgroup>
+    
+    <topicgroup>
+      <topichead>
+        
+        <topicmeta>
+          <navtitle>Configuration for the Command Line</navtitle>
+        </topicmeta>
+        
+        
+        <topicref href="topics/c_conf-overview.dita"/>
+        <topicref href="topics/r_config_file_management.dita"/>
+        <topicref href="topics/c_conf-variables.dita"/>
+        <topicref href="topics/c_conf-project.dita"/>
+        <topicref href="topics/c_conf-capture.dita"/>
+        <topicref href="topics/c_conf-install.dita"/>
+        <topicref href="topics/c_conf-analyze.dita"/>
+        <topicref href="topics/r_consolidated-schema.dita"/>
+      </topichead>
+    </topicgroup>
+    
+    
+    
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Polaris API</navtitle>
+      <shortdesc>Get started. Use the API reference documentation. Find out how to do common tasks with the API.</shortdesc>
+    </topicmeta>
+    
+    
+    <topicgroup>    
+      <topichead> 
+        <topicmeta><navtitle>API Getting Started</navtitle></topicmeta>
+        <topicref href="topics/c_api-overview.dita"/>
+        <topicref href="topics/c_api-services.dita"/>
+        <topicref href="topics/c_api-authentication.dita"/>    
+      </topichead>
+    </topicgroup>
+    
+    
+    <topicgroup>  
+      <topichead>
+        <topicmeta><navtitle>API Reference</navtitle></topicmeta>
+        <topicref href="topics/c_api-reference.dita"/>
+        <topicref href="topics/c_understand-webhooks-payload.dita"/>
+        
+      </topichead>
+    </topicgroup>
+    
+    
+    <topicgroup><topichead>
+      <topicmeta><navtitle>API How-Tos</navtitle></topicmeta>
+      <topicref href="topics/t_api-create-project-user-role.dita"/>
+      <topicref href="topics/t_api-retrieve-active-jobs.dita"/>
+      <topicref href="topics/t_api-retrieve-issues-list.dita"/>
+      <topicref href="topics/t_api-triage-project-issue-status.dita"/>
+      <topicref href="topics/t_get-checkers-in-run.dita"/>
+      <topicref href="topics/c_query-issues-by-tax.dita"/>
+      <topicref href="topics/c_diff-runs-get-count.dita"/>
+      <topicref href="topics/c_diff-runs-and-list-issues.dita"/>
+      <topicref href="topics/t_webhook.dita"/>
+      <topicref href="topics/t_update-webhook.dita"/>
+      <topicref href="topics/t_delete-webhook.dita"/>
+      <topicref href="topics/t_project-webhooks.dita"/>
+      <topicref href="topics/t_remove-project-webhook.dita"/>
+      <topicref href="topics/t_create-service-account.dita"/>
+      <topicref href="topics/t_change-service-account-role.dita"/>
+      <topicref href="topics/t_email-notifications-org.dita"/>
+      <topicref href="topics/t_email-notifications-project.dita"/>
+      <topicref href="topics/t_email-notifications-ind.dita"/>
+      <topicref href="topics/t_create-project.dita"/>
+      <topicref href="topics/t_update-project-properties.dita"/>
+      <topicref href="topics/t_filter-properties.dita"/>
+      <topicref href="topics/t_api-create-risk-profile-policy.dita"/> 
+      <topicref href="topics/t_api-change-risk-profile-policy.dita"/>
+      <topicref href="topics/t_api-create-application.dita"/>
+      <topicref href="topics/t_api-update-application.dita"/>
+      <topicref href="topics/t_api-generate-report.dita"/>
+      <topicref href="topics/t_api-untrash-app-or-project.dita"/>
+      <topicref href="topics/t_api-reporting-custom-info.dita"/>
+    </topichead></topicgroup>
+    
+    
+  </topichead>
+  <topichead print="no">
+    <topicmeta>
+      <navtitle>CI Integrations</navtitle>
+      <shortdesc>Bring the power of Polaris to Azure DevOps and Jenkins.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/c_plugins.dita"/>
+    <topicref href="topics/t_polaris-for-jira-service.dita"/>
+  </topichead>
+  
+  
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Release Notes</navtitle>
+      <shortdesc>Everything that's new.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/c_release-notes-2022.6.0.dita"/>
+    <topicref href="topics/c_release-notes-2022.3.0.dita"/>
+    <topicref href="topics/c_release-notes-2021.12.1.dita"/>
+    <topicref href="topics/c_release-notes-2021.12.0.dita"/>
+    <topicref href="topics/c_release-notes-2021.9.1.dita"/>
+    <topicref href="topics/c_release-notes-2021.9.0.dita"/>
+    <topicref href="topics/c_release-notes-2021.8.0.dita"/>
+    <topicref href="topics/c_release-notes-2021.6.0.dita"/>
+    <topicref href="topics/c_release-notes-2021.05.dita"/>
+    <topicref href="topics/c_release-notes-2021.04.dita"/>
+    <topicref href="topics/c_release-notes-2021.03.dita"/>
+    
+
+
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Compatibility and Support Information</navtitle>
+      <shortdesc>Supported browsers. Supported hardware and languages for Coverity on Polaris. Supported SCM.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/r_compatible-tools.dita"/>
+    <topicref href="topics/r_compatible-browsers.dita"/>
+    <topicref href="topics/r_coverity-compatible-platforms_2022.6.dita"/>
+    <topicref href="topics/r_coverity-compatible-platforms_2022.3.dita"/>
+    <topicref href="topics/r_coverity-compatible-platforms_2021.12.1.dita"/>
+    <topicref href="topics/r_coverity-compatible-platforms_2021.9.0.dita"/>
+    <topicref href="topics/cov-hardware-requirements.dita"/>
+    <topicref href="topics/r_compatible-scm.dita"/>
+    <topicref href="topics/r_compatible-frameworks.dita"/>
+
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Synopsys Community</navtitle>
+      <shortdesc>How to get started on Polaris. Courses for developers, admins, DevOps, and security professionals. PDF documentation for Coverity and Polaris. And more.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/c_community-info.dita"/>
+  </topichead>
+  
+  
+
+  
+  <mapref href="vars/m_keywords_map.ditamap"/>
+  <mapref href="vars/m_images_map.ditamap"/>
+  <mapref href="reltable.ditamap"/>
+  <ditavalref href="polaris-ditaval.xml"/>
+ 
+
+  <topicref processing-role="resource-only" href="topics/r_api-rpp-params.dita" />
+  <topicref processing-role="resource-only" href="topics/c_api-primer.dita"/>
+  <topicref processing-role="resource-only" href="topics/t_creating-tokens.dita"/>
+  <topicref processing-role="resource-only" href="topics/r_sample-yml-Csharp.dita"/>
+  <topicref processing-role="resource-only" href="topics/r_sample-yml-Java-Gradle.dita"/>
+  <topicref processing-role="resource-only" href="topics/r_sample-yml-Java-Maven.dita"/>
+  <topicref processing-role="resource-only" href="topics/r_sample-yml-Javascript-NodeJS.dita"/>
+  <topicref processing-role="resource-only" href="topics/r_sample-yml-Python.dita"/>
+  <topicref processing-role="resource-only" href="topics/t_filter-path.dita"/>
+  <topicref processing-role="resource-only" href="topics/t_issues-group.dita"/>
+  <topicref processing-role="resource-only" href="topics/c_release-notes-2021.01.dita"/>
+  <topicref processing-role="resource-only" href="topics/c_release-notes-2020.12.dita"/>
+  <topicref processing-role="resource-only" href="topics/c_release-notes-2020.10.dita"/>
+  <topicref processing-role="resource-only" href="topics/c_release-notes-2020.08.dita"/>
+  <topicref processing-role="resource-only" href="topics/c_release-notes-2020.07.dita"/>
+  
+  
+  
+  
+  
+</map>
