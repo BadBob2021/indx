@@ -10,7 +10,7 @@ Method: grep .dita files in web-help.ditamap for metadata strings 1 (robots:nofo
 ============================================================
 Total web-help.ditamap .dita files checked: 145
 Total files validated to have either 1 or 2 in them: 140
-Total files validated to have neither 1 or 2 in them: 5 (c_releae-notes-2020.07,08,10,12,c_releae-notes-2021.01)
+Total files validated to have neither 1 or 2 in them: 5 (c_release-notes-2020.07,08,10,12,c_release-notes-2021.01)
 ============================================================
 
 Need to investigate:
