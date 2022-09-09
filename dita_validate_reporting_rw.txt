@@ -16,13 +16,13 @@ Total files validated to have neither 1 or 2 in them: 9 (g_*.dita files)
 
 ============================================================
 Need to investigate:
-Validated. Nothing found using this method.
+Validated. Nothing errors found using this method.
 ============================================================
 
 ============================================================
 1. robots:nofollow (0) -- 'robots:nofollow, noindex' syntax/spelling validated in 0 files
 ============================================================
---nothing--
+--no files have this tag--
 
 
 ============================================================
