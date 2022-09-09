@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="Reporting_Platform_Help" xml:lang="en-US">
+    <booktitle>
+        <mainbooktitle>Coverity on Polaris Reporting Platform Guide 2022.6.0</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="m_intro.ditamap" format="ditamap" collection-type="family"/>
+    <chapter href="m_user_guide.ditamap" format="ditamap" collection-type="family"/>
+    <chapter href="m_admin.ditamap" format="ditamap" collection-type="family"/>
+    <chapter href="m_relnotes.ditamap" format="ditamap"/>
+    <chapter href="m_glossary.ditamap" format="ditamap"/>
+    <chapter href="vars/m_keywords_map.ditamap" format="ditamap"/>
+</bookmap>
