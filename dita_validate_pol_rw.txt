@@ -1,0 +1,168 @@
+============================================================
+Validation of othermeta name/content in Polaris topics folder (.dita files)
+1. robots:nofollow, noindex (9 files)
+2. product:Coverity on Polaris (133 files)
+
+============================================================
+Method: grep folder for metadata strings 1 and 2
+============================================================
+
+============================================================
+Total .dita files in folder: 214
+Total files validated to have either 1 or 2 in them: 142 (9 + 133)
+============================================================
+
+Need to investigate:
+* occurs in both 1 and 2
+** 2 occurs twice in same file
+
+============================================================
+1. robots:nofollow (9) -- 'robots:nofollow, noindex' syntax/spelling validated in 9 files
+============================================================
+c_api-primer.dita: <othermeta name="robots" content="nofollow, noindex" />
+*c_community-info.dita: <othermeta name="robots" content="nofollow, noindex" />
+r_sample-yml-Csharp.dita: <othermeta name="robots" content="nofollow, noindex" />
+r_sample-yml-Java-Gradle.dita: <othermeta name="robots" content="nofollow, noindex" />
+r_sample-yml-Java-Maven.dita: <othermeta name="robots" content="nofollow, noindex" />
+r_sample-yml-Javascript-NodeJS.dita: <othermeta name="robots" content="nofollow, noindex" />
+r_sample-yml-Python.dita: <othermeta name="robots" content="nofollow, noindex" />
+t_filter-path.dita: <othermeta name="robots" content="nofollow, noindex" />
+t_issues-group.dita: <othermeta name="robots" content="nofollow, noindex" />
+
+
+============================================================
+2. product:Coverity on Polaris (133) -- 'product;Coverity on Polaris' syntax/spelling validated in 133 files
+============================================================
+cov-hardware-requirements.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_admin-overview.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+c_admin-understanding-saml.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_api-authentication.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+c_api-overview.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_api-reference.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_api-services.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_bulk-export-jira.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_cli-config-overrides.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_cli-files.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_cli-overview.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+c_cli-phases.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+*c_community-info.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-analyze.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-capture.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-install.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-overview.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_conf-variables.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_diff-runs-and-list-issues.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_diff-runs-get-count.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_export-issues-to-jira.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_inclusivity.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_issue-view.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_navigating-polaris.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_org-admin-setup-jira.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_orgs-groups-users.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_plugins.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_polaris-overview.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_projects-and-favorites.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_projects-branches-revisions.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_query-issues-by-tax.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.03.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.04.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.05.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.12.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.12.1.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.6.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.8.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.9.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2021.9.1.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2022.3.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_release-notes-2022.6.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_pol_custom_appriskreport.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_rp_pol_reports.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+c_saml-form.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_saml-required-fields.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_understand-risk-Profile.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_understand-webhooks-payload.dita: <othermeta name="product" content="Coverity on Polaris"/>
+c_understanding-coverity.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_api-rpp-params.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_audit-logs-ref.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_cli-command-ref.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_cli-error-codes.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_compatible-browsers.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_compatible-frameworks.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_compatible-scm.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_compatible-tools.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_config_file_management.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_consolidated-schema.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_coverity-compatible-platforms_2021.12.1.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_coverity-compatible-platforms_2021.9.0.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_coverity-compatible-platforms_2022.3.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_coverity-compatible-platforms_2022.6.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_environment_variables.dita: <othermeta name="product" content="Coverity on Polaris"/>
+r_glossary.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-add-members-applications.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-add-members-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-configure-saml.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-group-add.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-group-edit.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-group-remove.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-saml-example.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-user-add.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-user-edit.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_admin-user-remove.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-change-risk-profile-policy.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-create-application.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-create-project-user-role.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-create-risk-profile-policy.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-generate-report.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-reporting-custom-info.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-retrieve-active-jobs.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-retrieve-issues-list.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-triage-project-issue-status.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-untrash-app-or-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_api-update-application.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_audit-logs.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_batch-triage.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_change-service-account-role.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_choose-cov-version-for-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_cli-compatibility-macOS.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_cli-quickstart.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_create-application.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_create-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_create-risk-profile-policy.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_create-service-account.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_creating-tokens.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_delete-webhook.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_deleting-project-branches.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_edit-risk-profile-policy.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_email-notifications-ind.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_email-notifications-org.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_email-notifications-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_export-issues.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_filter-properties.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_filter.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_get-checkers-in-run.dita:  <othermeta name="product" content="Coverity on Polaris"/>
+**installing-cli.dita: <othermeta name="product" content="Coverity on Polaris"/>
+**installing-cli.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_issue-triage.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_jira-behind-firewall.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_jira-setup-for-project.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_manage-triage.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_polaris-for-jira-service.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_project-branches.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_project-issues.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_project-summary.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_project-webhooks.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_remove-project-webhook.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_reporting-custom-info.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_review-triage.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_saml-lockout.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_selecting-default-branch.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_selecting-preferred-branch.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_service-account-add.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_service-account-assoc-add.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_service-account-assoc-end.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_set-cov-default-version.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_update-project-properties.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_update-webhook.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_view-application-results.dita: <othermeta name="product" content="Coverity on Polaris"/>
+t_webhook.dita: <othermeta name="product" content="Coverity on Polaris"/>
