@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ui-overview">
+    
+    
+    <title>Polaris UI Overview</title>
+    <shortdesc>Following is a summary of the Polaris UI features. </shortdesc>
+    
+        <conbody>
+            <section id="section_ehc_dyn_s5b">
+                <title>Navigation</title>
+                <p>Use the Top and Left Navigation bars to access Polaris functions.</p>
+                <table frame="all" rowsep="1" colsep="1" id="table_fhc_dyn_s5b">
+                    <title>Top and Left Navigatation Bars</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="5.02*"/>
+                        <tbody>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/portfolio.png"
+                                    id="image_dsh_vhr_t5b"/>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry><i>Top Nav</i></entry>
+                                <entry>Use to perform basic functions in Polaris.</entry>
+                            </row>
+                            <row>
+                                <entry>API</entry>
+                                <entry>Link to Synopsys Developer Portal.</entry>
+                            </row>
+                            <row>
+                                <entry>
+                                <image placement="break" href="../assets/images/help-icon.png"
+                                    id="image_ivt_pbj_t5b"/>
+                            </entry>
+                                <entry>
+                                <ul id="ul_qkn_yr4_v5b">
+                                    <li>Find API and Polaris documentation.</li>
+                                    <li>Submit support case or view your open cases.</li>
+                                </ul>
+                                </entry>
+                            </row>
+                            <row>
+                                <entry>Profile</entry>
+                                <entry>Account sign in/out. Includes access to Account (edit info,
+                                reset password) manage your Notifications, Access Tokens, Downloads
+                                (Polaris CLI tool).</entry>
+                            </row>
+                            <row>
+                                <entry><i>Left Nav</i></entry>
+                                <entry>Use to access pages to set up applications and projects, run
+                                tests, and adminster
+                                Polaris.<!--Order of icons: Portfolio, Test, Dashboards, Reports, My Org. Policies is out.  Debrup 9/1--></entry>
+                            </row>
+                            <row>
+                                <entry><xref href="#c_ui-overview/section_lhc_dyn_s5b">
+                                    <image placement="break"
+                                        href="../assets/images/porfolio-icon.png"
+                                        id="image_aw4_mgj_t5b" width="50px"/>
+                                </xref></entry>
+                                <entry><xref href="#c_ui-overview/section_lhc_dyn_s5b"/> : Create
+                                and manage applications and projects. Allows you to drill down to
+                                issues and view tests run on projects.</entry>
+                            </row>
+                            <row>
+                                <entry><xref href="#c_ui-overview/section_phc_dyn_s5b">
+                                    <image placement="break" href="../assets/images/test-icon.png"
+                                        id="image_tfv_ngj_t5b" width="50px"/>
+                                </xref></entry>
+                                <entry><xref href="#c_ui-overview/section_phc_dyn_s5b"/> : Run tests
+                                on source code. Includes details about test, assessor comments, and
+                                issue counts.</entry>
+                            </row>
+                        <row>
+                            <entry>***tbd***</entry>
+                            <entry>Dashboard : Provides a high level snapshot of all data
+                                issues.</entry>
+                        </row>
+                        <row>
+                            <entry>***tbd***</entry>
+                            <entry>Reports : Provides another way to look at the data in dashboards
+                                and allows you to create CSV and PDF.</entry>
+                        </row>
+                            <row>
+                                <entry><xref href="#c_ui-overview/section_rhc_dyn_s5b">
+                                    <image placement="break" href="../assets/images/policy-icon.png"
+                                        id="image_ccp_z5w_t5b" width="50px"/>
+                                </xref></entry>
+                                <entry><xref href="#c_ui-overview/section_rhc_dyn_s5b"/> : Create
+                                and manage policies (issue guidlines for organization and frequency
+                                of scan for projects).</entry>
+                            </row>
+                            <row>
+                                <entry><xref href="#c_ui-overview/section_thc_dyn_s5b">
+                                    <image placement="break" href="../assets/images/my-org-icon.png"
+                                        id="image_bgf_cvw_t5b" width="50px"/>
+                                </xref></entry>
+                                <entry><xref href="#c_ui-overview/section_thc_dyn_s5b"/> : Admin
+                                only.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </section>
+            <section id="section_lhc_dyn_s5b">
+                <title>Portfolio Page</title>
+                <p>The Portfolio page allows you to create and manage applications. </p>
+                <table frame="all" rowsep="1" colsep="1" id="table_mhc_dyn_s5b">
+                    <title>Portfolio Page</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="3.09*"/>
+                        <tbody>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/portfolio.png"
+                                    id="image_wtd_mbj_t5b"/>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry>Create Application</entry>
+                                <entry>Create a new application (set of projects).</entry>
+                            </row>
+                            <row>
+                                <entry>Search by Name</entry>
+                                <entry>Search applications by name.</entry>
+                            </row>
+                            <row>
+                                <entry>Table fields</entry>
+                                <entry>Lists all applications and descriptions. Click an application
+                                name to open the <xref href="#c_ui-overview/table_nhc_dyn_s5b"/>
+                                .<!--Click on the ellipse icon to select "Delete Application".  
+Note:  All projects and dates inside the applicatin will be deleted.--></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+                <table frame="all" rowsep="1" colsep="1" id="table_nhc_dyn_s5b">
+                    <title>(Portfolio) Application Page</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.62*"/>
+                        <tbody>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/ui_application.jpg"
+                                    id="image_hxz_m2q_t5b"/>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry><i>Projects tab</i></entry>
+                                <entry>Lists all projects and descriptions in the application. </entry>
+                            </row>
+                            <row>
+                                <entry>+ Add Project</entry>
+                                <entry>Create a new project in the application.</entry>
+                            </row>
+                        <row>
+                            <entry>Search by Name </entry>
+                            <entry>Search projects by name.</entry>
+                        </row>
+                            <row>
+                                <entry>Table fields</entry>
+                                <entry>Click a project name to go to the project page (see <xref
+                                    href="#c_ui-overview/table_ohc_dyn_s5b"/>).
+                                <!--Click on the ellipse icon to select "Delete Project".  
+Note:  All tests and dates inside the project will be deleted.--></entry>
+                            </row>
+                            <row>
+                                <entry>Test This Project</entry>
+                                <entry>Test the selected project. See <xref
+                                    href="t_gs-contributor.dita#conref-task-four"/>).</entry>
+                            </row>
+                            <row>
+                                <entry><i>Settings tab</i></entry>
+                                <entry>Manage settings for applications.</entry>
+                            </row>
+                            <row>
+                                <entry>General</entry>
+                                <entry>Change name and description of Application. Add Tags.</entry>
+                            </row>
+                            <row>
+                                <entry>Subscriptions</entry>
+                                <entry>Edit application level status or SCA subscriptions.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+                <table frame="all" rowsep="1" colsep="1" id="table_ohc_dyn_s5b">
+                    <title>(Portfolio) Project Page</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.62*"/>
+                        <tbody>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/ui-project-page.png"
+                                    id="image_ex2_nmw_t5b"/>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry><i>Issue  tab</i></entry>
+                                <entry>Lists issues in the project.</entry>
+                            </row>
+                            <row>
+                                <entry>Clear All</entry>
+                                <entry>Clear filters or checkbox selections.</entry>
+                            </row>
+                            <row>
+                                <entry>Triage  Selected / ALL</entry>
+                                <entry>Triages issues selected by checkbox or filter, or click ALL.
+                                See <xref href="t_how-to-triage.dita"/></entry>
+                            </row>
+                            <row>
+                                <entry>Export Selected / ALL</entry>
+                                <entry>Export issues selected by checkbox or filler, or ALL. See
+                                    <xref href="t_how-to-export-issues.dita"/>.</entry>
+                            </row>
+                            <row>
+                                <entry>Table fields</entry>
+                                <entry>Issue Type: Click on name to see <i>Issue Details</i> tab
+                                including Description, Local effect, Tool used, Scan date and time,
+                                and <i>Contributing Code Events</i> tab which includes path and
+                                support events check boxes.. <p>Also listed in this field is
+                                    Location, Filename, Tool Type, Triage Status, and
+                                CWE.</p></entry>
+                            </row>
+                            <row>
+                                <entry><i>Settings tab</i></entry>
+                                <entry>Manage settings for projects.</entry>
+                            </row>
+                            <row>
+                                <entry>General</entry>
+                                <entry>Edit Project Name and Description</entry>
+                            </row>
+                            <row>
+                                <entry>Integration</entry>
+                                <entry>
+                                <ul id="ul_lgf_hrf_55b">
+                                    <li>Use to set up Source Code Management (SCM) repository
+                                        integration for project. See <xref
+                                            href="t_how-to-integrate-repository.dita"/>.</li>
+                                    <li>Select a JIRA Instance and a Jira Project to export issues
+                                        to. (Available if Org Admin has set up integration.)  See
+                                            <xref href="c_jira-project.dita"/>.</li>
+                                </ul>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry>Policies</entry>
+                                <entry>View policies for the project. Add an exisiting policy to the
+                                project.</entry>
+                            </row>
+                        <row>
+                            <entry><i>Tests Tab</i></entry>
+                            <entry>View SAST and SCA Test Id, Date and Status for that project.
+                                <!--Also includes tabs that allow you to see issues for that specific test and the last test.--></entry>
+                        </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </section>
+            <section id="section_phc_dyn_s5b">
+                <title>Tests Page</title>
+                <p>The Tests page allows you to manage and run rests on applications.</p>
+                <table frame="all" rowsep="1" colsep="1" id="table_qhc_dyn_s5b">
+                    <title>Tests Page</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="5.5*"/>
+                        <thead>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/ui_tests.jpg"
+                                    id="image_a4v_1hq_t5b"/>
+                            </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>+New Test</entry>
+                                <entry>Run a test. See <xref
+                                    href="t_gs-contributor.dita#conref-task-four"/>).</entry>
+                            </row>
+                            <row>
+                                <entry>Date Range</entry>
+                                <entry>Filter by dates.</entry>
+                            </row>
+                            <row>
+                                <entry>Appplications/Projects</entry>
+                                <entry>Pulldown menu to select and see application/projects
+                                tests.</entry>
+                            </row>
+                            <row>
+                                <entry>Test Types</entry>
+                                <entry>Pulldown menu to organize by type.</entry>
+                            </row>
+                            <row>
+                                <entry>Status</entry>
+                                <entry>Pulldown menu to organize by status in testing.</entry>
+                            </row>
+                            <row>
+                                <entry>Clear Filters</entry>
+                                <entry>Clear filter selections.</entry>
+                            </row>
+                            <row>
+                                <entry>Refresh</entry>
+                                <entry>Update the page.</entry>
+                            </row>
+                            <row>
+                                <entry>Table fields</entry>
+                                <entry>Test Date: Date and time stated<p>Test ID: Unique number ID.
+                                    <!--Click to view issues from that test. See ***--></p><p>Test
+                                    Mode: Source Upload
+                                    <!--or Integrated Repository-->.</p><p>Application name. Click
+                                    to see application page (see <xref
+                                        href="#c_ui-overview/table_nhc_dyn_s5b"/>).</p><p>Project:
+                                    Click to see project page (see <xref
+                                        href="#c_ui-overview/table_ohc_dyn_s5b"/>).</p><p>Test
+                                    Status: Show percentage done, progress bar and status
+                                    (Completed, Cancelled, etc.).</p><p>Dialog icon : Click icon on
+                                    test row to see pop-up of comments from assessors for that
+                                    test.</p><p>Test Time: Shows how long test took to
+                                complete.</p></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </section>
+            <section id="section_rhc_dyn_s5b">
+            <title>Policies Page</title> The Policies page allows you to create policies for
+            applications.  <!--May be removed.--><table frame="all" rowsep="1" colsep="1"
+                id="table_shc_dyn_s5b">
+                <title>Policies Page</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.39*"/>
+                    <tbody>
+                        <row>
+                            <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/ui_policies.jpg"
+                                    id="image_hdy_2hq_t5b"/>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry><i>Issue Policy</i></entry>
+                            <entry>Create guigelines for your organization to follow and track
+                                projects against policies or trigger actions for violations.</entry>
+                        </row>
+                        <row>
+                            <entry>Add Policy (I)</entry>
+                            <entry>Add an Issue policy.</entry>
+                        </row>
+                        <row>
+                            <entry>Search</entry>
+                            <entry>Search Issue Policy.</entry>
+                        </row>
+                        <row>
+                            <entry>Table fields</entry>
+                            <entry>Policy Name: Click policy name to view policy.<p>Ellipse icon :
+                                    Allows you to edit, duplicate, set as default (for your org) or
+                                    delete that policy.</p></entry>
+                        </row>
+                        <row>
+                            <entry><i>Test Frequency Policy</i></entry>
+                            <entry>Provies alerts when your projects are not scanning frequently
+                                enough, or help enforce repository scanning timelines. For more
+                                detail, see <xref href="t_test_frequency_policies.dita"/></entry>
+                        </row>
+                        <row>
+                            <entry>Add Policy (TF)</entry>
+                            <entry>Add a Test Frequency policy.</entry>
+                        </row>
+                        <row>
+                            <entry>Search</entry>
+                            <entry>Search Test Frequency Policy.</entry>
+                        </row>
+                        <row>
+                            <entry>Table fields</entry>
+                            <entry>Policy Name: Click name to view policy.<p>Projects: How many
+                                    projects use that policy.</p><p>Ellipse icon : Allows you to
+                                    edit, duplicate, set as default (for your org) or delete that
+                                    policy.</p></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+      <section id="section_ejl_g1p_v5b">
+            <title>Dashboard Page</title> The dashboard page provides a snapshot of all issues.
+                <table frame="all" rowsep="1" colsep="1" id="table_fjl_g1p_v5b">
+                <title>Dashboard Page</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.39*"/>
+                    <tbody>
+                        <row>
+                            <entry namest="c1" nameend="c2">***image***</entry>
+                        </row>
+                        <row>
+                            <entry>Issues by Severity</entry>
+                            <entry>Lists issue count by Critical, High Medium, Low, and
+                                Audit.</entry>
+                        </row>
+                        <row>
+                            <entry>Filters</entry>
+                            <entry>Filter by Application, Project, Tool Type, Severity, and
+                                localized_name. Use the check­ boxes to make specific selections, or
+                                use the Include all button to select all checkboxes and include all.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Top 10 Vulnerable Catagories</entry>
+                            <entry>Shows a chart of the top categories with vulnerabilities.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+      <section id="section_ydt_p1p_v5b">
+            <title>Reports Page</title> The reports page shows the same data set as the Dasboards
+            page but in a report format that can be output to CVS or PDF (only 1,000 rows). <table
+                frame="all" rowsep="1" colsep="1" id="table_zdt_p1p_v5b">
+                <title>Reports Page</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.39*"/>
+                    <tbody>
+                        <row>
+                            <entry namest="c1" nameend="c2"> tbd </entry>
+                        </row>
+                        <row>
+                            <entry>Ellipse Icon</entry>
+                            <entry>Provides menu access to download a CSV or PDF of the report.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>Issue *** Reports</entry>
+                            <entry>Sortable columns for Application Name, Project Name, Issue ID,
+                                Weakness, CWE ID, Severity, Tool Type, etc. </entry>
+                        </row>
+                        <row>
+                            <entry>Filters</entry>
+                            <entry>Filter by Application, Project, Test Type, and Severity.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+            <section id="section_thc_dyn_s5b">
+                <title>My Organization Page</title>
+                <p>The My Organization page allows administrators to manage Polaris for the entire
+                organizations including adding users, viewing audits, add subscriptions and manage
+                notifications.</p>
+                <table frame="all" rowsep="1" colsep="1" id="table_uhc_dyn_s5b">
+                    <title>My Organization Page</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="5.5*"/>
+                        <tbody>
+                            <row>
+                                <entry namest="c1" nameend="c2">
+                                <image placement="break" href="../assets/images/my-org.png"
+                                    id="image_cmh_ghq_t5b"/>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry>Users</entry>
+                                <entry>
+                                <ul id="ul_dnh_bnt_s5b">
+                                    <li>+Add User button: Adds a user to Polaris.</li>
+                                    <li>See email and name of existing users.</li>
+                                    <li>Set Status to active or inactive</li>
+                                    <li>Delete (from) Polaris by clicking trash can icon.</li>
+                                </ul>
+                            </entry>
+                            </row>
+                            <row>
+                                <entry>Audit Logs</entry>
+                                <entry>See system changes from the user interface and API. Users can
+                                filter results by date, event type, etc., and export audit
+                                log.</entry>
+                            </row>
+                            <row>
+                                <entry>Subscriptions</entry>
+                                <entry>Add and view subscriptions and see if active for all of
+                                Polaris.</entry>
+                            </row>
+                            <row>
+                                <entry>Integrations</entry>
+                                <entry>Set up Jira Integrations to be used across
+                                organization.</entry>
+                            </row>
+                            <row>
+                                <entry>Notifications</entry>
+                                <entry>Enable or disable email notifications for all users. (For
+                                individual accounts, see Profile>Account>Notifications).</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </section>
+        </conbody>
+    
+</concept>
