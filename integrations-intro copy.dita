@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="integrations-intro">
+    <title>Introduction: Polaris Integrations</title>
+    <shortdesc>Polaris Integrations can trigger Polaris from your repository or interoperate with other third-party tools like Jira to
+        streamline your workflows. </shortdesc>
+    <conbody>
+        <section id="Out-of-the-boxintegrations">
+            <p>Here are some ways to use repository integrations:</p>
+            <ul id="ul_ebd_c3j_ttb">
+                <li>Run tests when code is checked into your default branch on GitHub or
+                    GitLab.</li>
+                <li>Create a GitHub pull request comment when an issue is found or resolved.</li>
+                <li>Fail the build in your CI system when a high-severity issue is found.</li>
+            </ul>
+          <p>Here's what you can do with the Jira integration:</p>
+            <ul>
+                <li>Connect Polaris with the Jira instance that your organization already uses.</li>
+                <li>Select a Jira project and issue type for any issues exported from your Polaris project.</li>
+                <li>Create a Jira issue when Polaris finds a relevant new issue in a test.</li>
+                
+            </ul>
+        </section>
+    </conbody>
+</concept>
