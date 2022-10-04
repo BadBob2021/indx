@@ -1,0 +1,496 @@
+Recording QST4a: Product Mgmt Overview
+
+2:29 pm - 3:04 pm  Monday, October 3, 2022 | (UTC-04:00) Eastern Time (US & Canada)
+
+Noah Rucker (IBM)  Robert Williams (IBM)  Shai Traister (IBM)  Erik Didriksen (IBM)  
+
+
+WEBVTT
+
+1
+Robert Williams (IBM) 00:00:05.794 --> 00:00:06.274
+All right.
+
+2
+Erik Didriksen (IBM) 00:00:11.875 --> 00:00:15.025
+Any other changes I just I want to make sure I pull up the right 1.
+
+3
+Shai Traister (IBM) 00:00:16.825 --> 00:00:23.305
+Everything should be updated and everything should be updated.
+
+4
+Erik Didriksen (IBM) 00:00:24.265 --> 00:00:31.705
+Okay, let me, um, do you just want me to drive to start Robert i1st off? Apologize for being late in 2nd.
+
+5
+Erik Didriksen (IBM) 00:00:32.334 --> 00:00:36.234
+You got a little bit of logistics to cover before so you'll have you definitely have some edit that you do.
+
+6
+Erik Didriksen (IBM) 00:00:38.274 --> 00:00:48.054
+Do you want me to keep driving the slides after after I'm done and I hand it over to you or do you want to change the screen sharing so that you can click on yourself?
+
+7
+Shai Traister (IBM) 00:00:49.854 --> 00:00:51.684
+I I think that you can keep driving.
+
+8
+Erik Didriksen (IBM) 00:00:52.284 --> 00:00:52.644
+Okay.
+
+9
+Shai Traister (IBM) 00:00:52.674 --> 00:00:55.104
+So, we wouldn't have to go and flip back and forth.
+
+10
+Erik Didriksen (IBM) 00:00:55.734 --> 00:00:57.294
+Okay, um.
+
+11
+Erik Didriksen (IBM) 00:00:58.074 --> 00:01:02.904
+Then I want to pull it up locally. Are you in the online version by chance?
+
+12
+Shai Traister (IBM) 00:01:03.054 --> 00:01:03.684
+I am.
+
+13
+Erik Didriksen (IBM) 00:01:04.314 --> 00:01:08.844
+Could you get out? Just so I've got the it'll it'll sync down to my computer.
+
+14
+Shai Traister (IBM) 00:01:10.465 --> 00:01:12.625
+In 3rd.
+
+15
+Erik Didriksen (IBM) 00:01:13.315 --> 00:01:23.905
+There's a significant shortcoming of box relative to the SharePoint online, is that, uh, if somebody's in the online version, the local copy you have synced does not well, it just doesn't synchronize.
+
+16
+Shai Traister (IBM) 00:01:27.204 --> 00:01:29.694
+Okay, and I think did them out.
+
+17
+Erik Didriksen (IBM) 00:01:32.244 --> 00:01:36.624
+Let's see, I'm still showing it locked. I just make sure it's oh, it's sinking. Hold on.
+
+18
+Erik Didriksen (IBM) 00:01:53.634 --> 00:01:56.904
+Sure are you going to do video or? No video? I'm fine. Either way.
+
+19
+Shai Traister (IBM) 00:01:57.384 --> 00:01:59.274
+Hey, either way either way. It's fine.
+
+20
+Erik Didriksen (IBM) 00:01:59.664 --> 00:02:10.884
+Let's just new do no video. I don't have a great in, like, my background is this, like, red wall and you can hardly see me so I don't have my my super fancy lights set up here.
+
+21
+Erik Didriksen (IBM) 00:02:11.215 --> 00:02:30.475
+Okay, so Robert, though, um, I'm gonna start and then, I'll hand over to shy around maybe like the H, what is it the you've got slide 9? Um, so I'm probably just gonna go for about 20 minutes. But if you hear something that's real goofy. Um, stop me, and then I can go back and repeat deal.
+
+22
+Robert Williams (IBM) 00:02:33.894 --> 00:02:38.604
+Yeah, sure, I'll, um, I'll tell you to repeat or whatever, and I'll just edit everything out.
+
+23
+Erik Didriksen (IBM) 00:02:39.654 --> 00:02:42.234
+Okay, and then, can you see the screen for the recording?
+
+24
+Robert Williams (IBM) 00:02:44.304 --> 00:02:49.404
+Yeah, I can see it. Um, it looks good. We should be. Okay. Yeah.
+
+25
+Erik Didriksen (IBM) 00:02:50.184 --> 00:02:52.524
+Okay, it should just change. Okay.
+
+26
+Erik Didriksen (IBM) 00:02:58.464 --> 00:03:15.744
+Hi, everyone welcome to the Watson orders. Onboarding project management overview. I'm Eric. didriksen with me here is also shy traister. Um, we've got a really a pretty concise explanation here of what the product management team does. We'll go through kind of the scope of our.
+
+27
+Erik Didriksen (IBM) 00:03:16.224 --> 00:03:36.894
+The different teams in product management, the team members, uh, as well. Um, and then she'll have some detail on what our release process is, how we take requirements and prioritize those what our workflow is and then how we work with the triage team overall. So, with that, we'll jump right in our job as a product team is to shape the overall product strategy.
+
+28
+Erik Didriksen (IBM) 00:03:36.899 --> 00:03:58.044
+By making sure that we understand where value gets added and where value gets created by our product, being part of a quick service restaurant business. And so we do that by making sure that we know our customer and we understand what their needs are. And we're always listening to them adjusting prioritizing and then communicating what we've done. And so we've got a couple of ways.
+
+29
+Erik Didriksen (IBM) 00:03:58.074 --> 00:04:18.414
+If we do that, all of this comes together, though, in the product roadmap and our primary job, as a product team is to make sure that the development teams are focused on. What's most important? Not just for mcdonald's, but also for the broader market, and for any other quick service restaurants that would be to come after mcdonald's.
+
+30
+Erik Didriksen (IBM) 00:04:19.765 --> 00:04:39.685
+And so we've got 2 teams that are really focused on finding opportunities, the product analytics and operator success teams and we'll dig into those a little bit. Um, the team's also responsible for evaluating managing and rationalize the development work. So, understanding why a given piece of work should be done where it provides value. That's our job.
+
+31
+Erik Didriksen (IBM) 00:04:40.614 --> 00:05:01.374
+For any new work, we have a document called the product product requirements, document or that. We put together. So that we've got a single spot for the idea to be, not only discussed, but also to be fully understood. And for conversation to have around happen around it. And then finally we communicate all of our intentions as well as successes.
+
+32
+Erik Didriksen (IBM) 00:05:01.499 --> 00:05:22.644
+Here to go to market piece and so I've mentioned a couple of different pieces. We've got our product roadmap. We've got there's a technical product management team that we also work with really heavily. That helps keeps the squads work, all organized and keep the priority in line. And then again, there's the go to market piece, which is where we.
+
+33
+Erik Didriksen (IBM) 00:05:22.674 --> 00:05:43.794
+Our product positioning messaging, but it's also how we make sure that we stay current on the Watson order storefront, which is how we actually sell to the operator. I mentioned that there are 4 different teams. We've got product management, product, analytics, operator, success, and go to market from a product management perspective. This is where the strategy.
+
+34
+Erik Didriksen (IBM) 00:05:43.825 --> 00:05:45.385
+Be in the roadmap pieces come together.
+
+35
+Erik Didriksen (IBM) 00:05:47.215 --> 00:06:07.765
+This is, uh, the where the trade off decisions get made and so if it's a question of, should we work on a, or should we work on B, product management makes those decisions and helps keep us moving forward. We have 2 different groups, as I mentioned before, that are really our sensory organs. It's how we understand what's going on. What.
+
+36
+Erik Didriksen (IBM) 00:06:07.794 --> 00:06:28.914
+Of them with product analytics. This is how we understand what's what is being used, how the product is being utilized and adding value in the restaurants. And this is primarily a data and engineering centric role where we identify opportunities to improve in a proactive perspective. Then we've got operator success, which is more.
+
+37
+Erik Didriksen (IBM) 00:06:28.920 --> 00:06:50.065
+Field facing, rather than in the office and data oriented, where we get to know our customer, and we can see how the software is actually working in the restaurant and that's where we identify opportunities for improvement from the field. And finally with go to market. We wrap everything together into a package where we can communicate not only.
+
+38
+Erik Didriksen (IBM) 00:06:50.184 --> 00:07:10.884
+What's changed and what's improved but also, what's still to come from a roadmap perspective? And so, again, I'm Eric didriksen lead this team with me as while. You're here in just a minute from shy. But the other leaders on the team are her mom, Shawn and Kayla. And then Gil and Jenna for a total of 10 of us on the team.
+
+39
+Erik Didriksen (IBM) 00:07:18.445 --> 00:07:38.005
+Sorry, I had to cough cut that up. Um, so, 1st, I want to start with the operator success team and so, as I've mentioned before this is really the 1st of 2 different groups that focus on sensing and responding to what's going on. Um, Shawn is our leader, but shawna and Taylor out in the field. They see what's working.
+
+40
+Erik Didriksen (IBM) 00:07:38.034 --> 00:07:59.124
+What isn't and they use that to capture the voice of our customer, but as well as the voice of the customer, it's also the voice of the guest, our customers customer and so they use that knowledge to understand what's working and what isn't in the field and this helps us better prioritize work that needs to come in, but it also helps identify bugs and or problems that.
+
+41
+Erik Didriksen (IBM) 00:07:59.184 --> 00:08:20.304
+Needs to be fixed the operator success team works with the product analytics team to find new ways of really telling the story finding new metrics that we should be paying attention to and vice versa operator. Success continues to support works really hand in hand with the operations team from McDonalds, whether it's on.
+
+42
+Erik Didriksen (IBM) 00:08:20.334 --> 00:08:41.453
+Go live in training and building out the training model for restaurant crews and 4 operator organizations, but also serves as our primary point of contact with the field with the restaurants to make sure that we can identify opportunities in the data. And so this is our reactive sense where we can see things that are happening and.
+
+43
+Erik Didriksen (IBM) 00:08:41.484 --> 00:08:42.684
+For what we want to do about it.
+
+44
+Erik Didriksen (IBM) 00:08:45.474 --> 00:09:05.394
+From a proactive perspective, we have the product analytics team and again, this is the 2nd of 2 different ways that we sense and respond to what's going on in the market Hamas, Brendan and Eric on this team. They'll help coordinate triage as well as the data teams with their analysis helping us look at some of the items that we're reacting to.
+
+45
+Erik Didriksen (IBM) 00:09:05.454 --> 00:09:26.514
+In the restaurant to understand what went well, and what went wrong understanding the impact that it may have to the overall restaurants operations and then can also start proactively looking for challenges through their finding 2 main questions. This team focuses on are really how people interact with and Watson orders.
+
+46
+Erik Didriksen (IBM) 00:09:26.724 --> 00:09:45.684
+And then, what can we do to improve that experience overall? And so, between the operator success and the product analytics group, that's how we get a sense of what's going on with our product how it's being used and how we might need to make improvements in the future based on real world examples.
+
+47
+Erik Didriksen (IBM) 00:09:49.165 --> 00:10:08.575
+Once we have that information, and it's been prioritized, we have to go to market group and with go to market between Gail and Jenna this is how we advocate for the product. And we make sure that it's really clear what value that Watson orders provides when an operator asks us why should I pay for subscription? Why isn't this a 1 time fee? What do I get from my money?
+
+48
+Erik Didriksen (IBM) 00:10:09.204 --> 00:10:29.994
+Why should I go with Watson orders? Why is it important for my restaurant? What kind of an impact it would make the go to market team can help structure that messaging and make sure that we're really clear about the value that we are providing the vast majority of the operator facing content that comes from IBM comes from the go to market team as well as mostly information and.
+
+49
+Erik Didriksen (IBM) 00:10:30.054 --> 00:10:32.484
+That we provide back to mcdonald's and to the clients.
+
+50
+Erik Didriksen (IBM) 00:10:35.064 --> 00:10:49.794
+Then hand it over to shy for a discussion on product management as it is his function, and then is going to go into some details on exactly how the product management team prioritizes and gets work through into the rest of development.
+
+51
+Shai Traister (IBM) 00:10:52.104 --> 00:10:54.504
+Hello everyone welcome to what's in orders.
+
+52
+Shai Traister (IBM) 00:10:55.434 --> 00:11:16.554
+So, the role of product management in what's and orders, just like, in most other organizations is ready to prioritize work for the development team in, in a way that would maximize value creation. So, we would like to improve the product over time obviously, and build more value. That we can handle.
+
+53
+Shai Traister (IBM) 00:11:16.825 --> 00:11:37.645
+To our customers, and the role of product management is to identify this work, prioritize it and schedule it accordingly in a slot up the work for the different teams. Really? It is built through several stages. 1st, is to have a roadmap that talks to the business.
+
+54
+Shai Traister (IBM) 00:11:37.734 --> 00:11:58.854
+And spells out, how are we going to meet each 1 of those next is to work on a quarterly basis and plan out each quarter along with our customers and key stakeholders to make sure that we are optimizing our products development cycles in accordance with their view. And in alignment with their expectations.
+
+55
+Shai Traister (IBM) 00:11:59.544 --> 00:12:20.004
+And from the quarterly planning, it boils down to every Sprint planning that we are a specifically targeting specific themes, epics and stories to be handled and addressed in each 1 of those sprints. And in addition we also want to identify.
+
+56
+Shai Traister (IBM) 00:12:20.034 --> 00:12:29.964
+New gaps and improvements areas that we can then work on to craft product requirements that we can later on hand over to the teams to work on.
+
+57
+Shai Traister (IBM) 00:12:31.344 --> 00:12:51.174
+And finally, um, communications and alignment setting expectations is key to be able to expand to on our operators, customers, what's coming and when it's coming. And what are all the things that we are achieving in order to show the continued improvements that we make overtime.
+
+58
+Shai Traister (IBM) 00:12:53.064 --> 00:13:13.584
+And finally, if there are any questions or blockers between the internal stakeholders to the external teams, and what's in, orders is heavily integrated inside the stores and have multiple touch points and integration points, technological integration points within the restaurants with different.
+
+59
+Shai Traister (IBM) 00:13:14.275 --> 00:13:34.735
+Other pieces of hardware and technology, like platforms, the network and so on and so forth. Right? And so there is a lot of technical dependencies between the teams. All those are dressed and managed and clear all those dependencies are cleared by.
+
+60
+Shai Traister (IBM) 00:13:34.764 --> 00:13:39.984
+Product management team, so that the core team development could be as efficient as possible.
+
+61
+Shai Traister (IBM) 00:13:42.354 --> 00:14:02.904
+With that, let's jump to talk about our release process and how this work is prioritized. But 1st, so, 1st, I'd like to show how, how is our work plan? We are working a, we are using agile development cycles where we have 2 weeks.
+
+62
+Shai Traister (IBM) 00:14:03.744 --> 00:14:24.084
+And as you can see here, the development is what's marked in purple here. We have 2 weeks cycles. So every 2 weeks and new development cycle starts once it ends the next 1 starts immediately. So, development never stops. It's like clockwork, continuous development and.
+
+63
+Shai Traister (IBM) 00:14:24.090 --> 00:14:45.205
+Then, on each Sprint after the Sprint is done, we make a cut of the release, basically taking a snapshot of what the developers have done that goes into QA to test whatever, all the new features bug fixes enhancements that were achieved during the Sprint. Then it's after QA gets.
+
+64
+Shai Traister (IBM) 00:14:45.444 --> 00:15:06.324
+Blessing and saying, yes, this is a good release. We hand off the release into a, to our customers to do uat user acceptance testing, which they do. 1st and then we go into pilot stores where the, the releases tested in live environment.
+
+65
+Shai Traister (IBM) 00:15:06.389 --> 00:15:27.414
+With Red customers in red store, and then there is a roll up rollout phase to all the additional, the rest of the stores. So, we do staggered release process in order to make sure that if there is anything wrong, we don't compromise the user experience for many of our guests across the stores.
+
+66
+Shai Traister (IBM) 00:15:27.834 --> 00:15:40.044
+We limit the exposure through the standard approach, but while all this testing and rollout is happening, the next development cycle continues. So, development never stops.
+
+67
+Shai Traister (IBM) 00:15:43.074 --> 00:15:43.464
+Is.
+
+68
+Shai Traister (IBM) 00:15:45.984 --> 00:16:07.014
+So, the question is, how do we prioritize the work? How do we get all these inputs? So there are a few pillars that are driving our, our roadmap and 1st is the strategic program form that we develop in alignment with our 1st, customer McDonalds. So.
+
+69
+Shai Traister (IBM) 00:16:07.344 --> 00:16:28.164
+They have their strategic objectives we have our strategic objectives, and we are aligning before each quarter. And before a year, what are those objectives are, and we are building the road map in according to those in order to meet those objectives and maximize the value that we can provide.
+
+70
+Shai Traister (IBM) 00:16:28.195 --> 00:16:49.315
+The next is the mcdonald's product team who are usually people with a lot of experience in the stores and have a sense of what customers say. And how do they say it? And what do they mean when they say X versus what? When they say, why? So, they provide a lot of input in a, in the.
+
+71
+Shai Traister (IBM) 00:16:49.584 --> 00:17:10.464
+Knowledge about how the agent should behave, our product should behave. We talked about our, the operations success operator success, and the operations team that are going to stores rolling out new stores, a training, the crew, right? The crew members inside the stores. How to.
+
+72
+Shai Traister (IBM) 00:17:10.704 --> 00:17:30.924
+Operate with him with with our agent, and they provide a lot of insights of what they hear, what they see in the stores. And of course product management's come up with new requirements. We talked about the product requirements documents that we write for new features, new enhancements.
+
+73
+Shai Traister (IBM) 00:17:32.004 --> 00:17:52.764
+There is a triage team. That will get to in a 2nd, and also engineering themselves can come and say, hey, I see an improve a path an opportunity for improvements. Maybe, it's to improve the way that we are doing existing things doing them better, faster, more efficiently or if it's.
+
+74
+Shai Traister (IBM) 00:17:52.944 --> 00:18:13.914
+A totally new capabilities that they can say, hey, there is there is an opportunity here. Let's go and build this all of these inputs from all these teams are going into a huge backlog that we then prioritize based on value based on how often? Um.
+
+75
+Shai Traister (IBM) 00:18:13.920 --> 00:18:34.375
+Those particular things happen in stores, and then based on this prioritization, it gets loaded for development in the respective sprints and then it goes into a release. So, let's now talk about this process but from a slight different lens.
+
+76
+Shai Traister (IBM) 00:18:35.244 --> 00:18:56.124
+1st, we'll talk about this, a current snapshot of our performance, um, slightly outdated, but the, the gist is there. So, we have about if you see on the on the chart on the right, we have about 80,000 orders that we take on a daily basis across all of our stores that.
+
+77
+Shai Traister (IBM) 00:18:56.219 --> 00:19:17.304
+Currently deployed on the left, you see our, our performance, which is a training it around 70%, automation and what it means it means that 70% of the orders are initiated and completed end to end by our agent automatically without any.
+
+78
+Shai Traister (IBM) 00:19:17.369 --> 00:19:38.484
+Prevention and the customers go, they place the orders, they roll today to the window that gets their food, whatever they ordered, and they drive away 70% of the orders. It means that 25 about 2,524,000 orders are escalated to the crew. Basically.
+
+79
+Shai Traister (IBM) 00:19:38.694 --> 00:19:59.664
+Intervenes on every single day that means that on a daily basis. We have 24,000 potential areas where we can look at and say, oh, something wasn't right here. For various reasons. It could be our fault could be the crew.
+
+80
+Shai Traister (IBM) 00:19:59.695 --> 00:20:14.035
+Some some other integration that didn't work, but 24,000 orders on a daily basis day after day. So hearing what's in orders? Our challenge is not so much to know.
+
+81
+Shai Traister (IBM) 00:20:15.235 --> 00:20:36.325
+Is not so much scheduled the, the, the development cycles and prioritizing, but also to filter out all this noise. So normally, in traditional product management product managers are seeking out any piece of feedback that they can get through surveys or customer intercepts, or.
+
+82
+Shai Traister (IBM) 00:20:36.355 --> 00:20:57.475
+Any other ways to gather information to get feedback on how the product is doing and what to improve here. We have almost the opposite of a challenge. We have too much information. Right? We have 24,000 data points every single day that tells us. Oh.
+
+83
+Shai Traister (IBM) 00:20:57.479 --> 00:21:17.394
+Something wasn't quite right. Let's go and fix it. And the challenge is, how do we take all this huge amount of data and distill it to actionable items that we can go and tell an engineer go and fix this, or go build this right? This is our challenge our main challenge.
+
+84
+Shai Traister (IBM) 00:21:19.314 --> 00:21:20.214
+Next slide please.
+
+85
+Shai Traister (IBM) 00:21:22.435 --> 00:21:42.595
+So, we are analyzing a lot of orders and this is kind of a report that goes and analyzes some randomly a randomly simple orders and says, okay, W, what is what is going on what are the issues if you see here there are some.
+
+86
+Shai Traister (IBM) 00:21:42.924 --> 00:22:03.744
+Some orders that's got escalated by the crew, some orders that escalated, because unsupported features features, customer initiatives escalations. So all these types of issues that we go and analyze and distill to find out those nuggets to say, oh, what should I, what should I fix?
+
+87
+Shai Traister (IBM) 00:22:03.984 --> 00:22:24.684
+Because we shouldn't go in 24,000 orders and fix every 1 of them. We of course, we, we don't have the, the capacity to staff the engineering team to fix all of them. So we have to find out which ones are more important and we are doing this here is an output from our triage team that goes.
+
+88
+Shai Traister (IBM) 00:22:25.764 --> 00:22:29.724
+And gives us those information next please.
+
+89
+Shai Traister (IBM) 00:22:32.305 --> 00:22:52.945
+Here is a more detailed breakdown of exactly. Figuring out what is going on and what are the specific issues right? If it's some menu issues, if it's some issues, natural language understanding, if it's a speech recognition, the dialogue, all these things.
+
+90
+Shai Traister (IBM) 00:22:53.184 --> 00:23:03.654
+Are broken down into specific buckets so that we can see which ones are more important and where we should focus next please.
+
+91
+Shai Traister (IBM) 00:23:05.814 --> 00:23:26.904
+And we also compare it time over time, right? A quarter over quarter to see where are we improving? Where are we not improving or tracking dates? So that we can know what are the most burning things that we should fix at any given release any given point in time and really prioritize the.
+
+92
+Shai Traister (IBM) 00:23:26.964 --> 00:23:47.784
+Work to maximize the value creation. We don't want our team to spend time working on things that won't improve automation. That will not add value to the overall product next. And so how does this work on a technically.
+
+93
+Shai Traister (IBM) 00:23:48.264 --> 00:24:09.234
+On a technical basis in JIRA, we have the requirements gathering, whether it came from our teams, they filled offices from mcdonald's products team from the customer success team from the triage team, wherever whoever identifies those opportunities. Right? We, as you. So we.
+
+94
+Shai Traister (IBM) 00:24:09.294 --> 00:24:30.384
+Them we analyze how big is that opportunity is and then we go, we write product requirements. We groom them we are aligning on those product requirements with the mcdonald's team. Like I said, that they have lots of experience with experience in the stores. They know the customers, they understand how.
+
+95
+Shai Traister (IBM) 00:24:30.414 --> 00:24:51.504
+The system behaves, and then we break it down into epics user stories tasks and that we feel that we fill in the in JIRA in each 1 of those product boards and we have a separate product board for each 1 of those, uh, of the technical teams. The technical squats that we.
+
+96
+Shai Traister (IBM) 00:24:52.254 --> 00:25:12.684
+So, we have a separate menu boarding, separate squad for the menu, for example, or for the dialog team, or for the team, or for the speech team, or for the core components team. So, each team has its own boards and each 1 has its own backlog and.
+
+97
+Shai Traister (IBM) 00:25:12.689 --> 00:25:33.804
+Then each Sprint they go and pick up the most urgent things, which are sorted by priority of course, to be worked on in any given Sprint and then the Sprint starts, they work on those tickets on those stories tasks and a.
+
+98
+Shai Traister (IBM) 00:25:33.839 --> 00:25:54.954
+We mentioned at the beginning after the 2 weeks development cycle, it goes into QA that runs their tests. There is a sign of a formal sign of process and then it goes to our customer to mcdonald's. In this case. They go through uat user acceptance testing. 1st, today, I see which is kind of a lab.
+
+99
+Shai Traister (IBM) 00:25:55.614 --> 00:26:14.904
+And then into staging a restaurants for pilot deployment, and then a full roll out to the rest of the stores. And with each release, we published the release notes went, went what? Got updated fixed enhanced in each release.
+
+100
+Shai Traister (IBM) 00:26:16.165 --> 00:26:37.255
+We're doing a release showcase aim of a demoing what went into each release and then we also review the QA in uat results and any, any bugs or any issues that are identified during QA or during uat rolls back to the teams is is.
+
+101
+Shai Traister (IBM) 00:26:37.289 --> 00:26:46.014
+Bug tickets and saying, hey, we need to fix this. This didn't pass. And so there is a feedback loop there. It goes back to the team.
+
+102
+Shai Traister (IBM) 00:26:52.915 --> 00:27:03.145
+So that was an overview of product management, uh, the various teams that we have and now we can fill any questions. Thank you very much.
+
+103
+Erik Didriksen (IBM) 00:27:04.345 --> 00:27:13.945
+Again, everyone really welcome to the team we appreciate your joining, uh, we're really glad that you've joined us, uh, here with Watson orders we're really looking forward to work with each, you.
+
+104
+Erik Didriksen (IBM) 00:27:14.304 --> 00:27:35.094
+In your in your different capacities that you've joined us with if you've got questions on this material, since you're watching a recording, do please feel free to reach out, either to myself, Eric didriksen or to shy with any questions that you guys might have. We do also have our our Watson orders product team, Slack channel that you could ask questions there.
+
+105
+Erik Didriksen (IBM) 00:27:35.099 --> 00:27:38.004
+Well, so again, welcome to the team and thank you.
+
+106
+Robert Williams (IBM) 00:27:42.835 --> 00:27:46.675
+Hey, guys very good. I'll edit this up and I'll post it.
+
+107
+Robert Williams (IBM) 00:27:48.354 --> 00:27:51.444
+And just send me that slide deck and I'll post that to, you.
+
+108
+Erik Didriksen (IBM) 00:27:52.494 --> 00:28:08.844
+Sure thing it's, um, shy are there any other I think there's a couple changes. We might want to make like, Romeo Bolingbrook. I didn't notice those until a little bit ago. But, uh, Robert yeah. There was another typo somewhere on a on a different slide. I think where it says opportunities, the word is.
+
+109
+Erik Didriksen (IBM) 00:28:08.939 --> 00:28:11.694
+Broken across for some reason. So.
+
+110
+Erik Didriksen (IBM) 00:28:13.734 --> 00:28:15.564
+Of course, you notice that when you're presenting.
+
+111
+Shai Traister (IBM) 00:28:15.924 --> 00:28:16.284
+Yeah.
+
+112
+Erik Didriksen (IBM) 00:28:20.124 --> 00:28:29.634
+I don't see it beforehand. Um, but, yeah, we'll we'll look through it again and then get over to you thanks for this opportunity. Do you think.
+
+113
+Erik Didriksen (IBM) 00:28:29.754 --> 00:28:38.544
+That was enough detail no, I don't mean. This is like the 1st, couple days. People are on and you don't want I don't think we need to, like.
+
+114
+Erik Didriksen (IBM) 00:28:38.815 --> 00:28:41.305
+Deep, it's designed as an overview, right?
+
+115
+Robert Williams (IBM) 00:28:42.085 --> 00:28:59.395
+Yeah, 302,530 minutes I mean, that's about as much as I can take. Right? The 1st, few days um, it's it's just an overview, right? I mean, I think it's, it's a lot cleaner than it seemed like before a lot more concise. So yeah, I think it's fine.
+
+116
+Robert Williams (IBM) 00:28:59.699 --> 00:29:06.504
+I can edit pass on the document once I get it finding weirdness I'll fix that. We should be done.
+
+117
+Erik Didriksen (IBM) 00:29:07.254 --> 00:29:14.604
+All right, cool, thank you. And if, um, if you do see something that pops up, that just totally, uh, needs to be recording or whatever just let us.
+
+118
+Robert Williams (IBM) 00:29:15.324 --> 00:29:16.554
+Well, thanks guys.
+
+119
+Erik Didriksen (IBM) 00:29:17.124 --> 00:29:17.514
+Thank you.
+
+120
+Shai Traister (IBM) 00:29:17.514 --> 00:29:18.444
+Right. Thanks.
+
+121
+Erik Didriksen (IBM) 00:29:18.534 --> 00:29:18.684
+Right.
+
+122
+Shai Traister (IBM) 00:29:19.434 --> 00:29:19.734
+Okay.
