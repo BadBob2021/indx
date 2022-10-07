@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Polaris Developer Portal</title>
+    
+    <topicgroup>
+        <topicmeta>
+            <navtitle>Get started </navtitle>
+            <shortdesc>Everything you need to know if you're new to the Polaris Developer Portal.</shortdesc>
+            
+        </topicmeta>
+        <topichead outputclass="get-started">   
+         <topicmeta>
+             <navtitle>Get started</navtitle>
+         </topicmeta>
+            <topicref href="topics/dev-portal-get-started.dita"  />  
+     </topichead>
+    </topicgroup>
+    
+    
+    
+    
+    <topicgroup >
+        <topicmeta>
+            <navtitle>CI/CD Integrations</navtitle>
+            <shortdesc></shortdesc>
+        </topicmeta>
+           
+            
+        <topichead outputclass="integrations-group">
+            <topicmeta >
+                <navtitle >Integrations</navtitle>
+                <shortdesc></shortdesc>
+            </topicmeta>
+            <topicref href="topics/c_integrations-intro.dita"></topicref>
+            <topicref href="topics/t_how-to-integrate-repository.dita"  />
+            <topicref href="topics/c_jira-integ.dita"  >
+                <topicref href="topics/c_jira-project.dita"  />
+               <!-- Jira integration  --> 
+            </topicref>
+          
+
+        </topichead>
+        
+    </topicgroup>
+    
+    <topicgroup >
+        <topicmeta>
+            <navtitle>Command line tool</navtitle>
+            <shortdesc>Script Polaris usage with a simple and powerful command line tool.</shortdesc>
+        </topicmeta>
+        
+        <topichead outputclass="CLI-group"> 
+           
+           <topicmeta>
+               <navtitle >Command line automation</navtitle>
+               <shortdesc></shortdesc>
+           </topicmeta>
+            <topicref href="topics/c_cli.dita" props="do-not-publish" />
+            <topicref href="topics/c_schema.dita" props="do-not-publish"  /> 
+            <topicref href="topics/t_cov-thin-client.dita" props="do-not-publish" />
+            
+        </topichead>
+        
+    </topicgroup>
+    
+    <topicgroup >
+        <topicmeta>
+            <navtitle>API</navtitle>
+            <shortdesc></shortdesc>
+        </topicmeta>
+        
+        
+        <topichead outputclass="api-group">
+            
+            
+            <topicmeta>
+                <navtitle>Polaris API </navtitle>
+                <shortdesc></shortdesc>
+            </topicmeta>
+            
+            <topicref href="topics/c_api-intro.dita" />
+          <topicref href="topics/t_api-quickstart.dita" /> 
+            
+        </topichead>
+        
+        
+  
+        
+    </topicgroup>
+    <ditavalref href="altair-ditaval.xml"/>
+    <topicref processing-role="resource-only" href="topics/t_make-token.dita" />
+    
+</map>

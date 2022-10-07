@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="altair_ditamap" xml:lang="en-US">
+
+    <title>Polaris</title>
+
+    <topichead>
+        <topicmeta>
+            <navtitle>Understand Polaris</navtitle>
+            <shortdesc>What Polaris does and how it works</shortdesc>
+        </topicmeta>
+        <topicref href="topics/c_product-overview.dita" />  <!-- What is Polaris   -->
+        <topicref href="topics/c_entitlements.dita" /> <!-- Subscriptions and entitlements -->
+        <topicref href="topics/c_data-model.dita"/> <!-- The Polaris data model -->
+    </topichead>
+
+    <topichead>
+        <topicmeta><navtitle>The Polaris web UI</navtitle></topicmeta>
+        <topicref href="topics/c_polaris-ui-overview.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-portfolio.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-tests.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-dashboard.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-reports.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-policies.dita" props="do-not-publish" />
+        <topicref href="topics/c_polaris-ui-myorg.dita" props="do-not-publish" />
+
+
+    </topichead>
+
+    <topichead>
+        <topicmeta>
+            <navtitle>Get Started</navtitle>
+            <shortdesc>Sign into the UI for the first time, and find out how to get things done.</shortdesc>
+        </topicmeta>
+        <topicref href="topics/t_gs-org-superuser.dita"/> <!--  Get started: Organization Super User-->
+        <topicref href="topics/t_gs-app-superuser.dita"/> <!--  Get started: Application Super User-->
+        <topicref href="topics/t_gs-app-admin.dita" props="do-not-publish" ></topicref>
+        <topicref href="topics/t_gs-contributor.dita" props="do-not-publish" ></topicref>
+        <topicref href="topics/t_gs-observer.dita" props="do-not-publish" ></topicref>
+
+
+    </topichead>
+
+    <topichead>
+        <topicmeta>
+            <navtitle>How-to</navtitle>
+        </topicmeta>
+        <topicref href="topics/r_org-how.dita" props="do-not-publish"></topicref>
+        <topicref></topicref> <!-- Insert post-scan policy task here -->
+        <topicref href="topics/t_how-to-test.dita" />
+        <topicref href="topics/t_how-to-triage.dita" props="do-not-publish"/> <!-- Get started: Internal triage -->
+        <topicref href="topics/t_how-to-export-issues.dita" />
+        <topicref href="topics/t_how-to-export-to-jira.dita" props="do-not-publish"  /> <!-- Export one issue to Jira -->
+        <topicref href="topics/t_post_scan_policies.dita" props="do-not-publish" /> <!-- Policay management main page -->
+        <topicref href="topics/t_test_frequency_policies.dita" props="do-not-publish" /> <!-- policy management subsection -->
+       
+    </topichead>
+
+
+    <topichead><topicmeta>
+        <navtitle>Reference</navtitle>
+        <shortdesc>Look up important information, including support.</shortdesc>
+    </topicmeta>
+        <topicref href="topics/r_release-notes.dita"/> 
+        <topicref href="topics/r_support-matrix.dita"/> <!-- Support Matrix -->
+        <topicref href="topics/r_glossary.dita"/> <!-- glossary  -->
+        <topicref href="topics/r_customer-support.dita"/> <!-- Help from customer support  -->
+        <topicref href="topics/c_roles-and-permissions.dita"></topicref>
+    </topichead>
+
+    <mapref href="altair-reltable.ditamap"/>
+    <ditavalref href="altair-ditaval.xml"/>
+
+    <topicref processing-role="resource-only" href="topics/t_how-to-integrate-repository.dita" />
+    <topicref processing-role="resource-only" href="topics/c_2fa-reset.dita" />
+    <topicref processing-role="resource-only" href="topics/c_jira-integ.dita" />
+    <topicref processing-role="resource-only" href="topics/c_jira-project.dita" />
+    <topicref processing-role="resource-only" href="topics/t_make-token.dita" />
+
+</map>

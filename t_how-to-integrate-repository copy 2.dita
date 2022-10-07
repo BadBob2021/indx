@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="t_integrate-repository">
+    <title>Integrate a Repository</title>
+    <taskbody id="integrate-repository-context">
+        <context>
+            <p>Source Code Management (SCM) Repository integrations on Polaris supports the following:</p>
+            <ul>
+                <li>GitHub</li>
+                <li>GitHub Enterprise Cloud</li>
+                <li>GitLab SaaS</li>
+            </ul>
+            <p>For more details, see <xref
+                    href="r_support-matrix.dita#r_support-matrix/section_e4t_mcd_y5b"/>.</p>
+            <p>Git integrations allow users to run scheduled SAST + SCA scans on a daily or weekly
+                basis. Users may also choose to run tests on-demand using the UI. </p>
+            <note id="note_uqs_kyx_t5b">This integration is on a project level / one repository per
+                project.</note>
+        </context>
+        
+    </taskbody>
+    
+    <task id="clf_4tf_2sb">
+        <title>Steps for Integrating a single SCM Repository to a Project</title>
+        <taskbody>
+            <context>This allows you to select the repository when creating a new test for the
+                project (see <xref href="t_how-to-test.dita"/>). Only one repository can be used per
+                    project.<ol id="ol_q42_lzx_t5b">
+                    <li>From <uicontrol>Application</uicontrol>, select a Project and navigate to
+                            <uicontrol>Settings</uicontrol>
+                            ><uicontrol>Integrations</uicontrol>.<image placement="break"
+                                href="../assets/images/git-integrations-ui.png" id="image_k53_x1q_y5b" width="400px"
+                        /></li>
+                    <li>Select the repository source type: GitHub, GitHub Enterprise, or
+                        GitLab.</li>
+                    <li>Enter the <uicontrol>Repository URL</uicontrol>. <p>To obtain the URL, in
+                            your Git repo, click the "Clone" or "Code" button, copy the "Clone with
+                            HTTPS" URL (SSH is not supported).<image placement="break"
+                                href="../assets/images/git-code-clone.png" id="image_bqs_4cq_y5b" width="200px"
+                            /></p></li>
+                    <li>Enter the <uicontrol>Repository Access Token</uicontrol>. <p>Depending on
+                            your choice for source above, you will need to generate an access token
+                            then paste it into the text field. </p><p>When creating an access
+                            token:</p><ul id="ul_kp3_3z3_y5b">
+                            <li>Select or set custom <uicontrol>Expiration</uicontrol>. You control
+                                the integration expiration date in git. It can be set for 7 days, 30
+                                days, etc., but to avoid issues in the future, it is recommended to
+                                select "No expiration".<image placement="break"
+                                    href="../assets/images/git-expiration.png"
+                                    id="image_rnz_mcj_y5b" width="200px"/>
+                            </li>
+                            <li><uicontrol>Select scopes</uicontrol>. <ul id="ul_nw4_lvj_y5b">
+                                    <li>For GitHub and GitHub Enterprise Cloud, access to "repo" is
+                                        required. <image placement="break"
+                                            href="../assets/images/git-select-scope.png"
+                                            id="image_dyv_5cj_y5b" width="300px"/></li>
+                                    <li>For GitLab, select "read_repository" and "read_api".<image
+                                            placement="break"
+                                            href="../assets/images/gitlab-select-scopes.png"
+                                            width="300px" id="image_mnt_1ck_y5b"/></li>
+                                </ul></li>
+                        </ul>Following is an example token:<p>
+                            <codeblock id="codeblock_r42_lzx_t5b">ghp_b8vffEJBcAwSO4JJv0y3FzKoivuEo71d4DaX</codeblock>
+                        </p><p>Instructions for generating access tokens can be found in the GitHub,
+                            GitHub Enterprise and GitLab online documentation. </p><ul
+                            id="ul_ucf_ngj_y5b">
+                            <li>For GitHub, see this <xref
+                                    href="https://urldefense.com/v3/__https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token__;!!A4F2R9G_pg!d82wtUKsL0TYUhncykG10F-8NBFU13ZaERXkbSx12fc8g4C-NzwUbL_b0imXY6SJlt2YO_CBx92iAn3VXw$"
+                                    format="html" scope="external">link</xref>.</li>
+                            <li>For GitHub Enterprise, see this <xref
+                                    href="https://docs.github.com/en/enterprise-server@2.22/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token"
+                                    format="html" scope="external">link</xref>.</li>
+                            <li>For GitLab, see this <xref
+                                    href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html"
+                                    format="html" scope="external">link</xref>.</li>
+                        </ul><note id="note_b1l_qqs_z5b">Due to security reasons, if you change any
+                            of your repository settings, you will have to enter the Access Token
+                            again. </note></li>
+                    <li>Click <uicontrol>Test your Connection</uicontrol>. A spinning circle
+                        indicates the test is in progress.</li>
+                    <li>
+                        <p>Once the test is complete, you should either see either a green checkbox
+                            and text indicating a successful connection, or a circled red X and text
+                            indicating an unsuccessful connection.</p>
+                        <p>If your connection is unsuccessful, check the following:<ol
+                                id="ol_s42_lzx_t5b">
+                                <li>Make sure you have a good network connection.</li>
+                                <li>Check the Repository URL and Access Token to make sure they are
+                                    accurate.</li>
+                                <li>Check that the Repository Access Token is still valid and has
+                                    not expired. </li>
+                            </ol></p>
+                    </li>
+                    <li>If your connection is successful, click<b> </b><uicontrol>Save</uicontrol>,
+                        or use Cancel to cancel the setup.</li>
+                    <li>You can then scan on demand (see <xref
+                            href="https://sig-confluence.internal.synopsys.com/display/PolDocs/Select+files+and+start+testing"
+                            format="html" scope="external">Select files and start testing</xref>) or
+                        schedule automatic testing on a daily or weekly basis (see <xref
+                            href="t_test_frequency_policies.dita"/>).<note id="note_wr4_2hj_1vb">
+                            From the <uicontrol>Tests</uicontrol> screen, before beginning a test
+                            manually, make sure to test the connection.</note></li>
+                </ol></context>
+        </taskbody>
+    </task>
+    
+    
+    
+</task>
