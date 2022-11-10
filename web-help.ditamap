@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+
+<map id="map_ktq_4yt_rgb" xml:lang="en-US">
+
+  <title><keyword keyref="platformProdName"/> CI Integrations</title>
+  
+  <topicmeta>
+  <!-- zoomin bundle name -->
+  <othermeta name="bundle" content="ci-integrations"/>
+  </topicmeta>
+  <!-- link to zoomin classification map -->
+  <topicref processing-role="resource-only" format="xml" type="xml" 
+    href="classification.xml" outputclass="classmapdata" scope="local"/>
+
+
+  <topichead>
+    <topicmeta>
+      <navtitle>CI Integrations Overview</navtitle>
+      <shortdesc>Coverity on Polaris integrates with Continuous Integration (CI) tools.</shortdesc>
+    </topicmeta>
+    <topicref href="topics/c_polaris-overview.dita"/>
+  </topichead>
+  
+  
+  <topicgroup>
+    <topichead>
+      <topicmeta>
+        <navtitle>Jenkins</navtitle>
+        <shortdesc>Bring the capability of the Coverity on Polaris to
+          Jenkins.</shortdesc>
+      </topicmeta>
+      <topicref href="topics/c_pol-plugin-jenkins-overivew.dita"/>
+      <topicref href="topics/c_pol-plugin-jenkins-reqs.dita"/>
+      <topicref href="topics/t_pol-plugin-install.dita"/>
+      <topicref href="topics/c_pol-plugin-jenkins-config.dita">
+        <topicref href="topics/t_pol-plugin-jenkins-pol-cli.dita"/>
+        <topicref href="topics/t_pol-plugin-jenkins-config-pol.dita"/>
+      </topicref>
+      <topicref href="topics/pol_analysis.dita"/>
+      <topicref href="topics/t_pol-plugin-jenkins-freestyle.dita"/>
+      <topicref href="topics/t_pol-plugin-jenkins-pipeline.dita">
+        <topicref href="topics/c_pipe_syntax.dita"/>
+        <topicref href="topics/c_pip_examp.dita"/>
+      </topicref>
+      <topicref href="topics/c_pol-plugin-release-notes.dita"/>
+    </topichead>
+  </topicgroup>
+  
+    
+    
+
+ 
+  <topichead>
+    <topicmeta>
+      <navtitle>Azure DevOps</navtitle>
+      <shortdesc>Bring the capability of the Coverity on Polaris to Azure DevOps.</shortdesc>
+    </topicmeta>
+    
+    <topicref href="topics/c_pol-ado-overivew.dita"></topicref>
+    <topicref href="topics/c_ado-pol-reqs.dita">
+      <topicref href="topics/c_ado-pol-yml-file.dita"/>
+      <topicref href="topics/c_ado-pol-build-agent.dita"/>
+    </topicref>
+      <topicref href="topics/t_ado-pol-install.dita"/>
+      <topicref href="topics/t_ado-pol-create-pipe.dita">
+        <topicref href="topics/t_ado-pol-add_plugin.dita"/>
+        <topicref href="topics/t_ado-pol-config-plugin.dita">
+          <topicref href="topics/c_pol_ado_incr_analysis.dita"/>
+          <topicref href="topics/t_pol_ado_config_inc_analy.dita"/>
+        <topicref href="topics/t_pol-ado-build-agent.dita"/>
+          <topicref href="topics/c_ado-pol-arguements.dita"/>
+        </topicref> </topicref>
+    <topicref href="topics/c_pol-ado-rel-notes.dita"/></topichead>
+  
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Jira Service</navtitle>
+      <shortdesc>Coverity on Polaris for Jira service enables users to manually triage, select, and assign Coverity on Polaris issues to Jira projects, which can be manually pushed to Jira Cloud on demand. </shortdesc>
+    </topicmeta> 
+    <topicref href="topics/c_pol_for_jira.dita"/> 
+  </topichead>
+  
+  <topichead>
+    <topicmeta>
+      <navtitle>Bamboo</navtitle>
+      <shortdesc>Coverity on Polaris with Bamboo enables continuous integration with the capability to invoke a Coverity on Polaris scan in Bamboo that runs static analysis on your software code. </shortdesc>
+    </topicmeta> 
+    <topicref href="topics/c_pol_for_bamboo.dita"/>
+    <topicref href="topics/integration_workflow.dita"/> 
+  </topichead>
+   
+    <topichead>
+      <topicmeta>
+        <navtitle>Support and Compatibility</navtitle>
+        <shortdesc>Supported versions for DevOps tools and Coverity on Polaris documentation links</shortdesc>
+      </topicmeta>
+      <topicref href="topics/c_help.dita"/> 
+    
+    </topichead>  
+  
+  
+  
+
+  <mapref href="vars/m_keywords_map.ditamap"/>
+  <mapref href="vars/m_images_map.ditamap"/>
+
+</map>
